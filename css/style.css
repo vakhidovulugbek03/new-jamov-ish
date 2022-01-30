@@ -931,7 +931,7 @@ html {
   transition: .5s;
 }
 
-.solutions_title {
+.solutions__title {
   color: var(--color-1);
   font-size: 23px;
   font-family: var(--font-family);
@@ -939,7 +939,7 @@ html {
   margin-bottom: 13px;
 }
 
-.solutions_title:hover {
+.solutions__title:hover {
   color: var(--color-4);
 }
 
@@ -1383,7 +1383,6 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   color: #57647c;
-  margin: 0 0 13px 0;
 }
 
 .pages-pricing__item::before {
@@ -1400,7 +1399,7 @@ html {
 .pages-pricing__item .bx {
   font-size: 25px;
   color: var(--color-4);
-  background:transparent;
+  background: transparent;
 }
 
 
@@ -1790,7 +1789,7 @@ html {
   text-decoration: none;
 }
 
-.footer__socialitem .bx{
+.footer__socialitem .bx {
   font-size: 18px;
   color: var(--color-2);
   display: block;
