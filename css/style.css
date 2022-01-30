@@ -19,7 +19,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 .container {
   max-width: 1320px;
   margin: 0 auto;
@@ -154,7 +153,6 @@ html {
 .nav__item:not(:nth-child(7)) {
   padding: 0 9px;
 }
-
 
 .nav__link {
   font-family: var(--font-family);
@@ -678,7 +676,6 @@ html {
     transform: translate3d(0px, 0px, 0px);
   }
 }
-
 
 
 /* MAIN PART  */
