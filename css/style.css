@@ -681,6 +681,124 @@ html {
 
 
 
+/* MAIN PART  */
+
+.main {
+  flex-grow: 1;
+}
+
+
+
+/* PROUT PART  */
+
+.prout {
+  background-image: url('https://strend-vue.envytheme.com/_nuxt/img/projects-shape.41517f1.png');
+  background-repeat: no-repeat;
+  background-size: 890px 680px;
+  background-position: left 100px;
+}
+
+.prout__inner {
+  width: 1920px;
+  margin: 0 auto;
+  padding: 110px 15px;
+  overflow: hidden;
+}
+
+.prout__tit-btn {
+  margin-bottom: 60px;
+}
+
+.prout__title {
+  width: 500px;
+}
+
+.prout__list {
+  padding: 0 15px;
+  height: 438px;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.prout__item {
+  position: relative;
+  max-width: 438px;
+  height: 438px;
+  box-shadow: var(--box-shadow-5);
+  cursor: pointer;
+}
+
+.prout__img {
+  border-radius: var(--border-radius-1);
+}
+
+.prout__btn {
+  font-size: 15px;
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  line-height: 45px;
+  transition: .5s;
+  margin: 0 3px;
+
+  color: var(--color-1);
+  border-radius: 30% 70% 70% 30%/40% 60% 40% 60%;
+  background: var(--bg-color-linear-gradient-1);
+
+  z-index: 1;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.prout__btn:nth-child(2) {
+  border-radius: 70% 30% 30% 70%/60% 40% 60% 40%;
+}
+
+.prout__btn:hover {
+  color: var(--color-2);
+  background: var(--bg-color-4);
+  transition: all 0.5s ease;
+}
+
+.prout__item-link {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 0px;
+  height: 0px;
+  font-size: 0px;
+  line-height: 0px;
+
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+
+  background: var(--bg-color-4);
+  color: var(--color-2);
+  border-radius: var(--border-radius-3);
+  transition: all 0.3s ease;
+
+  transform-origin: 50% 50%;
+}
+
+.prout__item-link:hover {
+  background: var(--bg-color-7);
+  transition: all 0.2s ease;
+}
+
+.prout__item:hover>.prout__item-link {
+  width: 70px;
+  height: 70px;
+  top: 20px;
+  right: 20px;
+  font-size: 50px;
+  line-height: 77px;
+  transition: all 0.3s ease;
+}
+
+
+
 
 /* FOOTER PART  */
 
