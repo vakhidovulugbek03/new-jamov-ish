@@ -1613,14 +1613,12 @@ html {
   text-decoration: none;
 }
 
-.bxl-facebook,
-.bxl-twitter,
-.bxl-instagram,
-.bxl-youtube {
+.footer__socialitem .bx{
   font-size: 18px;
   color: var(--color-2);
   display: block;
   align-items: center;
+  text-decoration: none;
 }
 
 .style-none {
