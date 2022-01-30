@@ -911,6 +911,133 @@ html {
 
 
 
+/* CLIENTS PART  */
+
+.clients {
+  position: relative;
+  background: var(--bg-color-linear-gradient-2);
+  overflow: hidden;
+}
+
+.clients__inner {
+  padding: 110px 0;
+}
+
+.clients__inner::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  opacity: .4;
+  width: 523px;
+  height: 585px;
+  background-image: url('https://strend-vue.envytheme.com/_nuxt/img/shape-1.ceb0bff.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.clients__titl-text {
+  width: 520px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clients__title {
+  margin-bottom: 10px;
+}
+
+.clients__lists {
+  position: relative;
+  width: 750px;
+  height: 320px;
+  margin: 0 auto;
+  z-index: 15;
+}
+
+.clients__list {
+  position: relative;
+  list-style-type: none;
+  z-index: 5;
+}
+
+.clients__item {
+  position: relative;
+  box-shadow: var(--box-shadow-1);
+  margin: 0 20px 45px;
+  background-color: var(--bg-color-1);
+  margin: 40px 20px 45px;
+  padding: 40px 70px 40px 60px;
+  border-radius: var(--border-radius-1);
+}
+
+.clients__user {
+  width: 105px;
+  margin-right: 20px;
+}
+
+.cli-user__img {
+  border-radius: 5px;
+  border: 2px solid #f4f5fe;
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.cli-user {
+  text-align: center;
+}
+
+.cli-user__name {
+  font-family: var(--font-family);
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.cli-user__tit {
+  display: block;
+  color: var(--color-4);
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.clients__texts {
+  position: relative;
+  width: 450px;
+}
+
+.clients__text {
+  color: var(--color-12);
+  margin-bottom: 10px;
+}
+
+.clients__texts .bxs-quote-alt-left {
+  position: absolute;
+  bottom: -70px;
+  right: -50px;
+  font-size: 110px;
+  color: var(--color-1);
+  opacity: 0.05;
+}
+
+.clients__item-span {
+  position: absolute;
+  top: 0;
+  left: 4%;
+  width: 650px;
+  height: 240px;
+  background: var(--bg-color-1);
+  box-shadow: var(--box-shadow-1);
+  border-radius: var(--border-radius-1);
+  z-index: -1;
+}
+
+
+
 /* FOOTER PART  */
 
 .footer {
