@@ -799,6 +799,117 @@ html {
 
 
 
+/* OFFER PART  */
+
+.offer {
+  position: relative;
+  background: var(--bg-color-5);
+  z-index: 10;
+}
+
+.offer::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  opacity: .4;
+  width: 523px;
+  height: 585px;
+  background-image: url('https://strend-vue.envytheme.com/_nuxt/img/shape-1.ceb0bff.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.offer__inner {
+  padding: 110px 0;
+}
+
+.offer__titl-text {
+  width: 520px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.offer__title {
+  margin-bottom: 10px;
+}
+
+.offer__lists {
+  padding-top: 50px;
+}
+
+.offer__list {
+  list-style-type: none;
+  width: 380px;
+}
+
+.offer__item {
+  width: 380px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.offer__item-tit {
+  display: block;
+  background-color: #fff;
+  position: relative;
+  padding: 30px 10px 30px 100px;
+  border-radius: 5px;
+  color: #313e5b;
+  font-size: 19px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.offer__item-icons .bx {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 20px;
+  font-size: 34px;
+  line-height: 55px;
+
+  text-align: center;
+  transform: translateY(-50%);
+
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+
+  background: var(--bg-color-linear-gradient-1);
+  border-radius: var(--border-radius-1);
+  color: var(--color-4);
+  z-index: 1;
+
+  transition: all 0.5s ease;
+}
+
+.offer__item-tit:hover {
+  background-color: var(--bg-color-4);
+  color: var(--color-2);
+  transition: all 0.5s ease;
+}
+
+.offer__tit-act {
+  background-color: var(--bg-color-4);
+  color: var(--color-2);
+  border-radius: var(--border-radius-1);
+}
+
+.offer__img-text {
+  width: 910px;
+  padding-left: 30px;
+}
+
+.img-text__text {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+
+
 
 /* FOOTER PART  */
 
