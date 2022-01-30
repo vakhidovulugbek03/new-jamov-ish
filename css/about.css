@@ -865,16 +865,14 @@ body {
 
 
 
-
 /* PART PAGES */
-
 
 .list-style-none{
   list-style: none;
 }
 .pages-section{
   padding: 110px 0;
-  background-color: #fff;
+  background-color: var(--color-2);
 }
 
 .pages-smart{
@@ -884,7 +882,6 @@ body {
 }
 .pagesimg{
   position: relative;
-  /* width: 636px; */
   width: 50%;
   height: 400px;
   padding: 0 12px 0 0 ;
@@ -907,6 +904,7 @@ body {
   padding-left: 25px;
 }
 .pagesriht__title{
+  font-family: var(--font-family);
   font-family: 'Dosis', sans-serif;
   margin:0 0 18px 0;
   width: 611px;
@@ -919,7 +917,15 @@ body {
   width: 611px;
   margin-bottom: 13px;
   font-size: 15px;
-  color: #57647c;
+  color: var(--color-3);
+  line-height: 1.8;
+}
+.pagesriht__link{
+  font-family: var(--font-family);
+  text-decoration: none;
+  color: var(--color-2);
+  background-color: var(--bg-color-6);
+  border-color: var(--bg-color-6);
   line-height: 1.8;
 }
 .pagesriht__link{
@@ -938,7 +944,7 @@ body {
 }
 .pagesriht__link:hover{
   transition: all 0.5s ease;
-  background-color: #4ac728;
+  background-color:var(--bg-color-7);
 }
 
 .pagesall__list{
@@ -951,14 +957,15 @@ body {
   padding: 0 12px;
 }
 .pagesall__title{
+  font-family: var(--font-family);
+  color: var(--color-1);
   font-family: 'Dosis', sans-serif;
-  color: #333;
   font-size: 23px;
   margin: 0;
 }
 .pagesall__text{
   font-family: 'Open Sans', sans-serif;
-  color: #57647c;
+  color: var(--color-3);
   line-height: 1.8;
   font-size: 15px;
   margin: 13px 0 0 0 ;
@@ -1641,10 +1648,6 @@ body {
 }
 
 
-
-
-
-
 .pagesinfo-section{
   transition: all 0.5s ease;
 }
@@ -1791,9 +1794,6 @@ body {
   border-radius: 35px;
   transition:all 0.5s ease;
 }
-
-
-
 
 .pagescustumers-section{
   background-color: #f2f6f9;
@@ -1953,12 +1953,6 @@ body {
   transition: all 0.5s ease;
 }
 
-
-
-
-
-
-
 .pages-carusel-section{
   width: 100%;
   height: 430px;
@@ -2092,12 +2086,6 @@ body {
   transition: all 0.4s ease;
   cursor: pointer;
 }
-
-
-
-
-
-
 
 
 .pagesplan-section{
@@ -2366,17 +2354,6 @@ body {
   line-height: 1.8;
   max-width: 350px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
