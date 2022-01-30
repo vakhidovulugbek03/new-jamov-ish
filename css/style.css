@@ -1400,6 +1400,7 @@ html {
 .pages-pricing__item .bx {
   font-size: 25px;
   color: var(--color-4);
+  background:transparent;
 }
 
 
