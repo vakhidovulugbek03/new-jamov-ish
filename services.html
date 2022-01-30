@@ -13,11 +13,11 @@
     href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-  <link href="https://your-path-to-uicons/css/uicons-your-style.css" rel="stylesheet">
+  <link href="https://your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet">
   <link rel="stylesheet" href="https://i.icomoon.io/public/temp/4b5136064e/UntitledProject/style.css">
   <link rel="stylesheet" href="https://i.icomoon.io/public/temp/f19b7c1f19/UntitledProject/style.css">
   <link rel="stylesheet" href="css/col.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about.css">
 </head>
 
 <body>
@@ -26,17 +26,15 @@
     <header id="header" class="site-header header">
       <div class="container">
         <div class="header__inner row middle between">
-          <a class="header__logo-link" href="index.html">
-            <img class="header__logo" src="images/dark-logo.png" alt="logo" width="150" height="39">
-          </a>
+          <a class="header__logo-link" id="about__logo" href="index.html"></a>
 
           <div class="header__nav row middle between">
             <nav class="nav">
               <ul class="nav__list row middle">
                 <li class="nav__item home">
-                  <p class="nav__link row middle between">Home
+                  <a href="index.html" class="nav__link row middle between" id="nav__link-1">Home
                     <i class='bx bx-chevron-down'></i>
-                  </p>
+                  </a>
 
                   <ul class="home__dropdown">
                     <li class="home__item">
@@ -58,13 +56,13 @@
                 </li>
 
                 <li class="nav__item pages">
-                  <p class="nav__link row middle between">Pages
+                  <a href="about.html" class="nav__link row middle between" id="nav__link-2">Pages
                     <i class='bx bx-chevron-down'></i>
-                  </p>
+                  </a>
 
                   <ul class="pages__dropdown">
                     <li class="pages__item row middle">
-                      <a href="about.html" class="pages__link">About Us</a>
+                      <a href="#" class="pages__link">About Us</a>
                       <i class='bx bx-chevron-down'></i>
                     </li>
                     <li class="pages__item">
@@ -92,9 +90,9 @@
                 </li>
 
                 <li class="nav__item pages">
-                  <p class="nav__link row middle between">Services
+                  <a href="services.html" class="nav__link row middle between" id="nav__link-3">Services
                     <i class='bx bx-chevron-down'></i>
-                  </p>
+                  </a>
 
                   <ul class="pages__dropdown">
                     <li class="pages__item">
@@ -116,9 +114,9 @@
                 </li>
 
                 <li class="nav__item pages">
-                  <p class="nav__link row middle between">Projects
+                  <a href="projects.html" class="nav__link row middle between" id="nav__link-4">Projects
                     <i class='bx bx-chevron-down'></i>
-                  </p>
+                  </a>
                   <ul class="pages__dropdown">
                     <li class="pages__item">
                       <a href="projects.html" class="pages__link row middle between">Projects</a>
@@ -130,13 +128,13 @@
                 </li>
 
                 <li class="nav__item">
-                  <a href="shop.html" class="nav__link nav__link-shop row middle between">Shop</a>
+                  <a href="shop.html" class="nav__link nav__link-shop row middle between" id="nav__link-5">Shop</a>
                 </li>
 
                 <li class="nav__item blog">
-                  <p class="nav__link row middle between">Blog
+                  <a href="blog.html" class="nav__link row middle between" id="nav__link-6">Blog
                     <i class='bx bx-chevron-down'></i>
-                  </p>
+                  </a>
                   <ul class="blog__dropdown">
                     <li class="blog__item">
                       <a href="projects.html" class="blog__link">Blog Grid</a>
@@ -151,13 +149,13 @@
                 </li>
 
                 <li class="nav__item">
-                  <a href="contacts.html" class="nav__link row middle between">Contact</a>
+                  <a href="contact.html" class="nav__link row middle between" id="nav__link-7">Contact</a>
                 </li>
               </ul>
             </nav>
 
             <div class="header__btns row middle between">
-              <button class="basket-btn">
+              <button class="basket-btn" id="basket-btn">
                 <i class='bx bx-basket'></i>
                 <span class="zero">0</span>
               </button>
@@ -172,50 +170,32 @@
       </div>
     </header>
 
-    <div class="hero">
+    <div class="about-hero about">
       <div class="container">
-        <div class="hero__inner row">
-          <div class="hero__desc">
-            <h2 class="hero__title">World’s Leading AI & Machine Learning Company</h2>
-            <p class="hero__text">
-              ML today are able to supply needful of help,
-              information, and positive experience of
-              maintaining intimacy with customers.
-              Eventually, chatbot ideas bring a pleasant
-              experience of all these
-              qualities into the conversation.
-            </p>
-
-            <div class="hero__btns row middle">
-              <a class="hero__btn btn-1" href="contacts.html">Schedule a Demo</a>
-              <a class="hero__btn hero__link" href="contact.html">Get Started Free</a>
-            </div>
-          </div>
-
-          <div class="hero__imgbox">
-            <img class="hero__img-1" src="images/hero-img1.png" alt="hero-img">
-            <img class="hero__img-2" src="images/hero-img2.png" alt="hero-img">
-            <img class="hero__img-3" src="images/hero-img3.png" alt="hero-img">
-            <img class="hero__img-4" src="images/hero-img4.png" alt="hero-img">
-            <img class="hero__img-5" src="images/hero-img5.png" alt="hero-img">
-            <img class="hero__img-6" src="images/hero-img6.png" alt="hero-img">
-            <img class="hero__img-7" src="images/hero-img7.png" alt="hero-img">
-            <img class="hero__img-8" src="images/hero-img8.png" alt="hero-img">
+        <div class="about__inner">
+          <h2 class="about__title">About Us</h2>
+          <div class="about__items row middle between">
+            <a class="about__link row middle" href="index.html">Home<i class='bx bx-chevron-right'></i></a>
+            <p class="about__tit">About Us</p>
           </div>
         </div>
       </div>
+      <div class="footer">
+        <ul class="footer__anim-list">
+          <li class="footer__anim"></li>
+          <li class="footer__anim"></li>
+          <li class="footer__anim"></li>
+        </ul>
+      </div>
     </div>
-
-    <img class="site-anim-1"
-      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTQ5Ljg5MSUiIGlkPSJhIj48c3RvcCBzdG9wLWNvbG9yPSIjMDBFOTJCIiBvZmZzZXQ9IjAlIi8+PHN0b3Agc3RvcC1jb2xvcj0iI0NDRkZBOCIgb2Zmc2V0PSIxMDAlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggdHJhbnNmb3JtPSJyb3RhdGUoMTMyIDgxLjYyNyAxNjYuMTY0KSIgZD0iTTIgMzIzbDEwLjU5OCAxM0wyMyAzMjN6IiBzdHJva2U9InVybCgjYSkiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIgb3BhY2l0eT0iLjY1OSIvPjwvc3ZnPg=="
-      alt="img" width="20" height="21">
-    <img class="site-anim-2" src="images/back-pink.png" alt="img" width="200" height="200">
-    <img class="site-anim-3" src="images/dot-1.38b4f22.png" alt="img" width="17" height="17">
-    <img class="site-anim-4" src="images/dot-3.13fe417.png" alt="img" width="17" height="17">
-    <img class="site-anim-5"
-      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDIyIDIyIj4NCiAgPGRlZnM+DQogICAgPHN0eWxlPg0KICAgICAgLmNscy0xIHsNCiAgICAgICAgZm9udC1zaXplOiAyNXB4Ow0KICAgICAgICBmaWxsOiAjMjdlYWM4Ow0KICAgICAgICB0ZXh0LWFuY2hvcjogbWlkZGxlOw0KICAgICAgICBmb250LWZhbWlseTogUm9ib3RvOw0KICAgICAgfQ0KICAgIDwvc3R5bGU+DQogIDwvZGVmcz4NCiAgPHRleHQgaWQ9Il8iIGRhdGEtbmFtZT0iKyIgY2xhc3M9ImNscy0xIiB0cmFuc2Zvcm09Im1hdHJpeCgxLjQzNywgMS40MzQsIC0xLjQzNywgMS40MzQsIC0wLjgzMiwgMjMuMDY2KSI+PHRzcGFuIHg9IjAiPis8L3RzcGFuPjwvdGV4dD4NCjwvc3ZnPg0K"
-      alt="img" width="22" height="22">
   </section>
+
+
+  <main class="main">
+    <div class="main__inner">
+
+    </div>
+  </main>
 
 
 
@@ -359,7 +339,6 @@
   </footer>
 
 
-
   <!-- MODAL PART  -->
 
   <div class="modal" id="show">
@@ -376,11 +355,11 @@
   </div>
 
 
-  <a class="btn-top" href="#top" id="toTOP">
-    <i class='bx bx-up-arrow-alt'></i>
+  <a class="btn-top" href="#top" id="toTop">
+    <i class='bx bx-up-arrow-alt' undefined></i>
   </a>
 
-  <script src="js/main.js"></script>
+  <script src="js/light.js"></script>
 </body>
 
 </html>
