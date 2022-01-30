@@ -193,6 +193,11 @@ html {
   font-size: 18px;
 }
 
+.basket-btn:hover{
+  color:var(--color-4);
+  transition: all 0.3s ease;
+}
+
 .zero {
   position: absolute;
   top: -50%;
@@ -201,6 +206,7 @@ html {
   font-size: 12px;
   width: 17px;
   height: 17px;
+  padding-top: 1px;
 
   color: var(--color-2);
   background-color: var(--color-4);
@@ -214,6 +220,12 @@ html {
   cursor: pointer;
   font-size: 13px;
   font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.search-btn:hover{
+  color: var(--color-4);
+  transition: all 0.3s ease;
 }
 
 .bx-search {
@@ -1505,3 +1517,40 @@ html {
 .toTOP {
   display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
